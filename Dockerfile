@@ -11,3 +11,5 @@ COPY Gemfile* ./
 RUN bundle install
 
 EXPOSE 4001 35730
+
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--port", "4001", "--livereload"]
