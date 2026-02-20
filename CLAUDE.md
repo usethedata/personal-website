@@ -30,12 +30,16 @@ bundle exec jekyll build
 bundle exec jekyll clean
 ```
 
-## Deployment Strategy
+## Branching and Deployment
+
+**IMPORTANT:** Always work on the `dev` branch. If the repo is checked out to `main`, ask the user before making any file changes — working on `main` directly is an exception, not the norm.
 
 GitHub Actions automatically builds and deploys the site:
 - `main` branch → Production at https://usethedata.net
 - `dev` branch → Development environment for testing GitHub rendering
 - Feature branches → Local testing only (do not deploy)
+
+Merge `dev` to `main` only when explicitly asked to deploy.
 
 Deployment workflow: `.github/workflows/deploy.yml`
 
