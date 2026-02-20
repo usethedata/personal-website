@@ -18,7 +18,7 @@ docker-compose up --build
 # Stop the container
 docker-compose down
 
-# Access the site at http://localhost:4000
+# Access the site at http://localhost:4001
 ```
 
 ## Local Development without Docker

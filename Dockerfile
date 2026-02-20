@@ -10,4 +10,4 @@ WORKDIR /site
 COPY Gemfile* ./
 RUN bundle install
 
-EXPOSE 4000 35729
+EXPOSE 4001 35730
