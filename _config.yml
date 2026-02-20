@@ -17,6 +17,10 @@ header_links:
     url: https://usethedata.me
   - title: Google Scholar
     url: https://scholar.google.com/citations?user=38ITdvsAAAAJ&hl=en
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/bewilson/
+  - title: ORCID
+    url: https://orcid.org/0000-0002-1421-1728
   - title: GitHub
     url: https://github.com/usethedata
 
