@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the blog and photos site for Bruce E. Wilson, hosted at `usethedata.net`. The professional profile site is a separate repo (`usethedata/profile-site`) at `usethedata.me`. Both sites share a common theme via `usethedata/site-theme`.
+This is the blog and photos site for Bruce E. Wilson, hosted at `usethedata.net`. The GitHub repository is `usethedata/personal-website`. The professional profile site is a separate repo (`usethedata/profile-site`) at `usethedata.me`. Both sites share a common theme via `usethedata/site-theme`.
 
 ## Local Development with Docker (Preferred)
 
