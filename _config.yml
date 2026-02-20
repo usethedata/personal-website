@@ -4,7 +4,7 @@ baseurl: ""
 url: "https://usethedata.net"
 
 # Theme
-remote_theme: usethedata/site-theme
+remote_theme: usethedata/site-theme@dev
 
 # Author info
 author:
