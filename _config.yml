@@ -1,0 +1,71 @@
+title: Use The Data
+description: Blog and photos by Bruce E. Wilson
+baseurl: ""
+url: "https://usethedata.net"
+
+# Theme
+remote_theme: usethedata/site-theme
+
+# Author info
+author:
+  name: Bruce E. Wilson
+  email: usethedata@gmail.com
+
+# Navigation links
+header_links:
+  - title: Profile
+    url: https://usethedata.me
+  - title: Google Scholar
+    url: https://scholar.google.com/citations?user=38ITdvsAAAAJ&hl=en
+  - title: GitHub
+    url: https://github.com/usethedata
+
+footer_links:
+  - title: Profile
+    url: https://usethedata.me
+  - title: Google Scholar
+    url: https://scholar.google.com/citations?user=38ITdvsAAAAJ&hl=en
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/bewilson/
+  - title: ORCID
+    url: https://orcid.org/0000-0002-1421-1728
+  - title: GitHub
+    url: https://github.com/usethedata
+
+# Blog settings
+paginate: 10
+paginate_path: "/page:num/"
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-paginate
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Dockerfile
+  - docker-compose.yml
+  - README.md
+  - CLAUDE.md
+  - vendor/
+  - .bundle/
+  - context/
+  - my_context/
