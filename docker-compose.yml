@@ -2,7 +2,7 @@ services:
   jekyll:
     build: .
     ports:
-      - "4001:4001"
+      - "4101:4001"    # Host 4101 avoids NoMachine's port range starting at TCP 4000
       - "35730:35730"
     volumes:
       - .:/site

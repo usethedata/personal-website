@@ -18,7 +18,8 @@ docker-compose up --build
 # Stop the container
 docker-compose down
 
-# Access the site at http://localhost:4001
+# Access the site at http://localhost:4101
+# (Host port 4101 avoids NoMachine's default TCP 4000, which is in use on Bruce's Macs.)
 ```
 
 ## Local Development without Docker
